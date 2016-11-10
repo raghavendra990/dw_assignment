@@ -22,6 +22,6 @@ python code:
 ```
 import shortener
 short = shortener.Shortener(host='localhost',user = 'root',password='098SJPrd&',database = 'textly')
-short.shorten("www.facebook.com")  // will store url in database and return primary_key in base 62.
-short.real_url('cv')   // will take base 62 key and convert in to base 10 and return the url where id = base 10 value.
+short.shorten("www.facebook.com")  ## will store url in database and return primary_key in base 62.
+short.real_url('cv')   ## will take base 62 key and convert in to base 10 and return the url where id = base 10 value.
 ```
