@@ -10,7 +10,7 @@ class manage:
         }
         data = '{"key":"%s", "value":"%s"}'%(key , value)
         r = requests.post('%s/add_key/'%(self.host), headers=headers, data=data)
-        return r.text
+        return r.text 
 
     def GET(self , key  ):
         headers = {
