@@ -23,7 +23,7 @@ Now python code for ADD, GET, DELETE key from server.
 ```python
 import dataStorer
 
-m = dataStorer.manage(host='http://127.0.0.1:5000') ## host in our case it will be "http://127.0.0.1:5000", incase you have deployed on the server than host will change.
+m = dataStorer.manage(host='http://127.0.0.1:5000') ## host in our case will be "http://127.0.0.1:5000", incase you have deployed on the server than host will change.
 
 m.ADD(key= "student" , value = "raghav")     ##  m.ADD("student" , "raghav")
 m.GET("student")
