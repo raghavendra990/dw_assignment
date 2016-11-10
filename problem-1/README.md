@@ -19,7 +19,7 @@ pip install MySQL-python
 
 python code:
 
-```
+```python
 import shortener
 short = shortener.Shortener(host='localhost',user = 'root',password='098SJPrd&',database = 'textly')
 short.shorten("www.facebook.com")  ## will store url in database and return primary_key in base 62.
