@@ -11,11 +11,17 @@ created_on timestamp
 <br>
 or find url_table.sql file in the same folder and import in your database.
 
-need to install "MySQLdb" mysql python client 
-  pip install MySQL-python
+need to install "MySQLdb" mysql python client:
 
-  import shortener
-  short = shortener.Shortener(host='localhost',user = 'root',password='098SJPrd&',database = 'textly')
-  short.shorten("www.facebook.com")  // will store url in database and return primary_key in base 62.
-  short.real_url('cv')   // will take base 62 key and convert in to base 10 and return the url where id = base 10 value.
-  
+```
+pip install MySQL-python
+```
+
+python code:
+
+```
+import shortener
+short = shortener.Shortener(host='localhost',user = 'root',password='098SJPrd&',database = 'textly')
+short.shorten("www.facebook.com")  // will store url in database and return primary_key in base 62.
+short.real_url('cv')   // will take base 62 key and convert in to base 10 and return the url where id = base 10 value.
+```
