@@ -16,7 +16,7 @@ now run app.py file.
 python app.py
 ```
 
-if everything is fine then you application sucefully start running on http://127.0.0.1:5000 .
+if everything is fine then your application succefully start running on http://127.0.0.1:5000 .
 
 Now python code for ADD, GET, DELETE key from server.
 
